@@ -14,6 +14,7 @@
 		A3734B9627FB57520008EEE5 /* TransferApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3734B9427FB57520008EEE5 /* TransferApp.xcdatamodeld */; };
 		A3734B9827FB57530008EEE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3734B9727FB57530008EEE5 /* Assets.xcassets */; };
 		A3734B9B27FB57530008EEE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3734B9927FB57530008EEE5 /* LaunchScreen.storyboard */; };
+		A3734BA327FB5D530008EEE5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3734BA227FB5D530008EEE5 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A3734B9727FB57530008EEE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3734B9A27FB57530008EEE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3734B9C27FB57530008EEE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3734BA227FB5D530008EEE5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				A3734B8B27FB57520008EEE5 /* AppDelegate.swift */,
 				A3734B8D27FB57520008EEE5 /* SceneDelegate.swift */,
 				A3734B8F27FB57520008EEE5 /* ViewController.swift */,
+				A3734BA227FB5D530008EEE5 /* SecondViewController.swift */,
 				A3734B9127FB57520008EEE5 /* Main.storyboard */,
 				A3734B9727FB57530008EEE5 /* Assets.xcassets */,
 				A3734B9927FB57530008EEE5 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				A3734B9027FB57520008EEE5 /* ViewController.swift in Sources */,
 				A3734B8C27FB57520008EEE5 /* AppDelegate.swift in Sources */,
 				A3734B9627FB57520008EEE5 /* TransferApp.xcdatamodeld in Sources */,
+				A3734BA327FB5D530008EEE5 /* SecondViewController.swift in Sources */,
 				A3734B8E27FB57520008EEE5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
