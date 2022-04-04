@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
+        updateLabel(withText: updatedData)
     }
 
     private func updateLabel(withText text: String) {

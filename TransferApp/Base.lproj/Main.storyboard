@@ -67,14 +67,27 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wA-7t-JEM">
+                                <rect key="frame" x="30" y="443" width="354" height="31"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Сохранить с помощью свойства">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="saveDataWithProperty:" destination="fSb-V7-JgL" eventType="touchUpInside" id="zOg-FR-cue"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6wX-2S-6By"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <constraints>
                             <constraint firstItem="6wX-2S-6By" firstAttribute="trailing" secondItem="GYa-Hd-zRh" secondAttribute="trailing" constant="30" id="0xx-g0-5D2"/>
-                            <constraint firstItem="6wX-2S-6By" firstAttribute="bottom" secondItem="GYa-Hd-zRh" secondAttribute="bottom" constant="456" id="TU2-UC-ZU1"/>
+                            <constraint firstItem="3wA-7t-JEM" firstAttribute="leading" secondItem="6wX-2S-6By" secondAttribute="leading" constant="30" id="AJD-FD-K25"/>
+                            <constraint firstItem="6wX-2S-6By" firstAttribute="bottom" secondItem="3wA-7t-JEM" secondAttribute="bottom" constant="388" id="UGs-f3-APc"/>
                             <constraint firstItem="GYa-Hd-zRh" firstAttribute="top" secondItem="6wX-2S-6By" secondAttribute="top" constant="328" id="bhe-8r-DPN"/>
                             <constraint firstItem="GYa-Hd-zRh" firstAttribute="leading" secondItem="6wX-2S-6By" secondAttribute="leading" constant="30" id="uqj-5z-L56"/>
+                            <constraint firstItem="6wX-2S-6By" firstAttribute="trailing" secondItem="3wA-7t-JEM" secondAttribute="trailing" constant="30" id="zzT-1f-cIU"/>
                         </constraints>
                     </view>
                     <connections>

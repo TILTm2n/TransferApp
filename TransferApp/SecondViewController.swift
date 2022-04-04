@@ -13,9 +13,15 @@ class SecondViewController: UIViewController {
     
     @IBOutlet weak var dataTextField: UITextField!
     
+    @IBAction func saveDataWithProperty(_ sender: UIButton) {
+        self.navigationController?.viewControllers.forEach {
+            viewController in
+            (viewController as? ViewController)?.updatedData = dataTextField.text ?? ""
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
     
