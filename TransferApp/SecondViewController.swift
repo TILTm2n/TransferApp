@@ -15,6 +15,7 @@ class SecondViewController: UIViewController {
     
     @IBAction func saveDataWithProperty(_ sender: UIButton) {
         self.navigationController?.viewControllers.forEach {
+            //потенциальная утечка памяти
             viewController in
             (viewController as? ViewController)?.updatedData = dataTextField.text ?? ""
         }

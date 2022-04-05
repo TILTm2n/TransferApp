@@ -7,8 +7,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, DataUpdateProtocol {
+    
     var updatedData = "Test Data"
     
     @IBOutlet weak var dataLabel: UILabel!
@@ -34,6 +34,11 @@ class ViewController: UIViewController {
 
     private func updateLabel(withText text: String) {
         dataLabel.text = updatedData
+    }
+    
+    func onDataUpdate(data: String) {
+        updatedData = data
+        updateLabel(withText: data)
     }
     
 }
